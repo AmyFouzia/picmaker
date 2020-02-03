@@ -4,7 +4,7 @@ def makePPM(filename, w, h,):
     G = 0
     B = 0
 
-    for i in range(2000):
+    for i in range(250000):
         f.write("0 " + str(G) + " " + str(B) + " ")
         G += 1
         B += 1
@@ -15,4 +15,4 @@ def makePPM(filename, w, h,):
         if (B > 255):
             B = 0
 
-makePPM("pic", "50", "40")
+makePPM("pic", "500", "500")
